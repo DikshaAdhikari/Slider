@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7fbe1;
+}
+
+#innerDiv {
+    margin: 6% auto;
+    width: 60%;
+    height: 75vh;
+    border: 20px solid #393e46;
+    box-shadow: 2px 2px 6px 8px #393e46;
+    background-image: url('images/DSC_3030.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s ease-in-out;
+}
+
+.btn {
+    background-color: #393e46;
+    color: #f7fbe1;
+    border-radius: 30%;
+    width: 3vw;
+    height: 5vh;
+    border: 1px solid #f7fbe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn-left {
+    position: absolute;
+    top: 45%;
+    left: 18.5%;
+
+}
+
+.btn-right {
+    position: absolute;
+    top: 45%;
+    right: 18.5%;
+}
